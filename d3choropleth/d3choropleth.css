@@ -1,0 +1,27 @@
+* {
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+/******************************/
+#container {
+	text-align: center;
+	width: 1000px;
+	margin: auto;
+}
+/******************************/
+.state {
+	stroke: white;
+	stroke-width: 0.1rem;
+}
+
+.tooltip {
+	white-space: nowrap;
+	position: absolute;
+	background-color: yellow;
+	opacity: 60%;
+	padding: 0.5rem;
+	box-shadow: 0 0 0.5rem 0.1rem black;
+	font-weight: 600;
+	
+	display: none;
+}
